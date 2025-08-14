@@ -77,8 +77,6 @@ It enables organizations, researchers, and businesses to **capture survey respon
 
 ---
 
-# 🧠 Asklytics — AI-Driven Smart Survey & Insights Platform
-
 ## 💡 Usage
 
 1. **Login** to the dashboard.
