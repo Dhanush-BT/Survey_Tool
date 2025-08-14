@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/your-username/helios-survey-tool">
-    <img src="helios_logo.png" alt="HELIOS Header" width="300" />
+    <img src="helios_logo.png" alt="Header" width="300" />
   </a>
 </p>
 
@@ -12,10 +12,10 @@
   <img src="https://img.shields.io/badge/Multilingual-Supported-brightgreen" alt="Language Support Badge" />
 </p>
 
-# 📊 **HELIOS – AI Powered Smart Tool for Survey Data Collection**
+# 📊 **InsightAI - AI Powered Smart Tool for Survey Data Collection**
 ### *Efficient. Scalable. Intelligent.*
 
-HELIOS is an AI-powered, **Retrieval-Augmented Generation (RAG)** based smart tool designed for **automated survey data collection, multilingual processing, and real-time analysis**.  
+InsightAI is an AI-powered smart tool designed for **automated survey data collection, multilingual processing, and real-time analysis**.  
 It enables organizations, researchers, and businesses to **capture survey responses, process them intelligently, and derive actionable insights instantly** — with **accuracy**, **scalability**, and **market readiness** at its core.
 
 ---
@@ -77,20 +77,57 @@ It enables organizations, researchers, and businesses to **capture survey respon
 
 ---
 
-## 📌 Setup
+# 🧠 Asklytics — AI-Driven Smart Survey & Insights Platform
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/helios-survey-tool.git
-cd helios-survey-tool
+## 💡 Usage
 
-# Install backend dependencies
-pip install -r requirements.txt
+1. **Login** to the dashboard.
+2. **Create or import** survey templates.
+3. **Distribute** the survey to target participants.
+4. **Collect & process** responses automatically.
+5. **Analyze** results using the AI-powered dashboard.
 
-# Run backend
-python manage.py runserver
+---
 
-# Setup frontend
-cd frontend
-npm install
-npm run dev
+## 🧱 System Architecture
+
+- **Survey Collector Service** – Manages incoming responses & validation.
+- **Data Processor** – Cleans, formats, and chunks data for analysis.
+- **RAG Engine** – Retrieves semantically relevant chunks for the LLM.
+- **Insight Generator** – Produces analytical summaries and recommendations.
+- **UI Dashboard** – Interactive interface for survey management and insights.
+
+---
+
+## 🔍 Retrieval & Chunking Strategy
+
+- **Max Chunk Size**: ~3,500 characters  
+- **Overlap Size**: ~200 characters  
+- **Method**: Sliding window chunking to preserve context.  
+- **Vector Search**: Qdrant for semantic retrieval.  
+- **Early Exit Optimization**: Stops retrieval once a satisfactory answer is found.  
+- **Multilingual Prompting**: Handles queries and data in multiple languages.
+
+---
+
+## 📚 References
+
+- [AI Market Growth – Fortune Business Insights](https://www.fortunebusinessinsights.com/artificial-intelligence-market-102613)  
+- [Business Adoption of AI – PwC](https://www.pwc.com/us/en/services/consulting/library/artificial-intelligence.html)  
+- [RAG Pipelines – Pinecone](https://www.pinecone.io/learn/retrieval-augmented-generation/)  
+- [Qdrant Documentation](https://qdrant.tech/documentation/)
+
+---
+
+## ✅ Submission Checklist
+
+| Requirement                  | ✅ Done? |
+|------------------------------|----------|
+| Scalable Architecture        | ✅       |
+| AI Integration with RAG      | ✅       |
+| Multilingual Support         | ✅       |
+| Analytics Dashboard          | ✅       |
+| Market Feasibility Analysis  | ✅       |
+| Security Considerations      | ✅       |
+| Offline Deployment Ready     | ✅       |
+
